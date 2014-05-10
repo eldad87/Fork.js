@@ -1,0 +1,21 @@
+{
+  "author": "Eldad Yamin",
+  "name": "Fork.js",
+  "description": "An easy way to fork and execute commands between parent-child processes",
+  "version": "0.1.0",
+  "description": "A predictive library",
+  "dependencies": {
+    "node-uuid": "1.4.x",
+    "underscore": "git+https://github.com/jashkenas/underscore.git",
+    "async": "~0.2.9",
+    "mocha": "1.x",
+    "should": "*",
+    "sinon": "*"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/eldad87/Fork.js"
+  },
+  "engine": "node 0.10.x",
+  "main": "./lib/index.js"
+}
