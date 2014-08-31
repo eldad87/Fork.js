@@ -39,7 +39,7 @@ An easy way to fork and excute commands between parent-child processes.
         }
     };
 
-    //Fork the child + call inOnChild method
+    //Fork the child + call incOnChild method
     var childExtend = new Forker({file: './child.js', handler: handler});
     childExtend.callOtherEnd('incOnChild', [10], function(err, res) {
         console.log('Child increased value is: ', res); //Should be 11.
