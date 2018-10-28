@@ -1,7 +1,7 @@
 Fork.js
 =======
 
-An easy way to fork and excute commands between parent-child processes.
+An easy way to fork and execute commands between parent-child processes.
 
 ### Create a forkable child in one of 2 ways (save as child.js):
 #### Extend:
